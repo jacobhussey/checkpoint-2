@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container-fluid font-import ms-4 ms-md-0">
+        <section class="row">
+            <div class="col-12">
+                <h1 class="text-center text-white text-shadow">Pet The Cat</h1>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-12 text-center mb-5">
+                <div class="d-flex justify-content-center move-down ms-5">
+                    <img class="bubble" src="https://cdn140.picsart.com/291831263058211.png" alt="">
+                </div>
+                <img class="select " onclick="mine()"
+                    src="https://i.pinimg.com/originals/24/e3/dd/24e3ddc701cbd51c0c0adb7e99952435.gif" alt="">
+            </div>
+        </section>
+
+        <section class="row justify-content-center">
+            <div class="col-md-4 color rounded  mt-md-4 d-md-flex order-2 order-md-1">
+                <span id="mice" class=" text-shadow-1">0</span>
+                <h2 onclick="buyMouse('mouse')" class="mt-md-4 d-flex pt-lg-2 select-1 text-shadow-1">buy mouse
+                </h2>
+                <div>$<span id="mouse price" class="text-sizing"></span></div>
+
+                <span id="catnips" class="text-shadow-1 ms-md-5">0</span>
+                <h2 onclick="buyCatnip()" class="mt-md-4 ms-md-5 pt-lg-2 select-1 text-shadow-1">buy catnip</h2>
+                <div>$<span id="catnip price" class="text-sizing"></span></div>
+            </div>
+
+            <div class="col-md-4 color d-flex align-items-center justify-content-center rounded  order-1 order-md-2">
+                <h2 class="p-3 fw-bold text-white">Total Pets</h2><span id="pets" class="totalpets">0</span>
+                <!-- <h5 class="pt-md-3">Per Click <span id="perclick"></span></h5> -->
+                <div class="p-3 text-shadow-1">Per Click<span id="perclick" class="p-1"></span></div>
+                <div class="text-shadow-1">Per Auto<span id="per auto" class="p-1"></span></div>
+            </div>
+
+            <div class="col-md-4 color rounded  mt-md-4 d-bloc d-md-flex  text-center order-3">
+                <span id="tuna" class="text-shadow-1 ms-md-2">0</span>
+                <h2 onclick="buyTuna('canned tuna')" class="m-md-4 pt-md-2 select-1 text-shadow-1">buy tuna</h2>
+                <div>$<span id="tuna price" class="text-sizing me-md-3"></span></div>
+
+                <span id="box" class="text-shadow-1 ms-md-2">0</span>
+                <h2 onclick="buyBox('cardboard box')" class="m-md-4 pt-md-2 select-1 text-shadow-1">buy box</h2>
+                <div>$<span id="box price" class="text-sizing"></span></div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

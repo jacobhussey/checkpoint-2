@@ -1,0 +1,61 @@
+h1 {
+    font-size: 5rem;
+}
+
+.container-fluid {
+    background-color: pink;
+    min-height: 100vh;
+}
+
+.bubble {
+    height: 15vh;
+}
+
+/* 
+@media (max-width: 403x) {
+    .body {
+        width: 100vw;
+    }
+} */
+
+.move-down {
+    transform: translateY(5vh);
+}
+
+.color {
+    background-color: violet;
+    border: solid 1px black;
+    box-shadow: 0px 0px 20px gray;
+}
+
+.select:hover {
+    cursor: pointer;
+}
+
+.select-1:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+.text-shadow {
+    text-shadow: 3px 3px black;
+}
+
+.text-shadow-1 {
+    text-shadow: 1px 1px white;
+}
+
+.font-import {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.totalpets {
+    font-size: 1.8rem;
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+.text-sizing {
+    font-size: 1.3rem;
+}
